@@ -1,19 +1,18 @@
 class script(object):
-    START_TEXT = """ A Simple File Renamer Bot With Permanent Thumbnail support!💯
-
-<b>Send me any Telegram file and choose appropriate option! </b>"""
-
+    START_TEXT = """ A Simple File Renamer Bot With Permanent Thumbnail support.
+Send me any Telegram file and choose appropriate option.
+Try Not to Spam me """
     RENAME_403_ERR = "What Are You Doing? You are Banned"
-    UPGRADE_TEXT = "CONTACT @prgofficial"
-    DOWNLOAD_START = "Give Me Some Time..."
-    UPLOAD_START = "Starting to upload..."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @prgofficial **"
-    SAVED_THUMB = "Thumbnail Saved ✅ This Is Permanent"
+    UPGRADE_TEXT = "This Bot is Completely free to use."
+    DOWNLOAD_START = "Downloading the file..."
+    UPLOAD_START = "Now Uploading..."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Task Completed."
+    SAVED_THUMB = "Thumbnail Saved.\nThis Is Permanent thumbnail until /delthumb"
     DEL_THUMB = "Thumbnail cleared succesfully!"
     NO_THUMB = "No thumbnails found!"
-    SAVED_RECVD_DOC_FILE = "File Downloaded Successfully 😎"
+    SAVED_RECVD_DOC_FILE = "File Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
-    HELP_USER = """It's not that complicated😅
+    HELP_USER = """It's not that complicated
     
 1. Send me any Telegram File.
 2. Choose appropriate option."""

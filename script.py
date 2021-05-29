@@ -10,7 +10,7 @@ Try Not to Spam me.
     DOWNLOAD_START = "Downloading the file..."
     UPLOAD_START = "Now Uploading..."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Task Completed."
-    SAVED_THUMB = "Thumbnail Saved.\nThis Is Permanent thumbnail until /delthumb"
+    SAVED_THUMB = "Thumbnail Saved.\nThis Is Permanent thumbnail until \n/delthumb"
     DEL_THUMB = "Thumbnail cleared succesfully!"
     NO_THUMB = "No thumbnails found!"
     SAVED_RECVD_DOC_FILE = "File Downloaded Successfully."

@@ -18,5 +18,5 @@ Try Not to Spam me.
     HELP_USER = """It's not that complicated
     
 1. Send me any Telegram File.
-2. Choose appropriate option."""
+2. Choose appropriate option.\n"""
 

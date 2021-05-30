@@ -15,8 +15,18 @@ Try Not to Spam me.
     NO_THUMB = "No thumbnails found!"
     SAVED_RECVD_DOC_FILE = "File Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = "@Rename_Rbot"
-    HELP_USER = """It's not that complicated
-    
-1. Send me any Telegram File.
-2. Choose appropriate option.\n"""
+    HELP_USER = """
+➠ Send me any telegram file or media.
+➠ Choose appropriate option.
+
+Set Thumbnail
+➠ Send a photo to make it as custom thumbnail.
+
+Deleting Thumbnail
+➠ Send /delthumb to deleting thumbnail.
+
+Show Thumbnail
+➠ Send /showthumb for view current thumbnail.
+
+"""
 

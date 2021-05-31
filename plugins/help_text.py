@@ -36,6 +36,16 @@ def help_user(bot, update):
         reply_to_message_id=update.message_id
     )
 
+@Client.on_message(filters.command(["pics"]))
+def pics(bot, update):
+    bot.send_message(
+        chat_id=update.chat.id,
+        text="https://telegra.ph/Renamer-Bot-05-30"
+        #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Contact", url="https://t.me/prgofficial")]]),
+        parse_mode="html",
+        disable_web_page_preview=True,
+        reply_to_message_id=update.message_id
+    )
 
 @Client.on_message(filters.command(["start"]))
 def send_start(bot, update):

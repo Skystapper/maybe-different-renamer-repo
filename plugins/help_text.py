@@ -38,7 +38,8 @@ def help_user(bot, update):
 
 @Client.on_message(filters.command(["pics"]))
 def pics(bot, update):
-    bot.send_message(
+    if update.from_user.id in Config.AUTH_USERS:
+        bot.send_message(
         chat_id=update.chat.id,
         text="https://telegra.ph/Renamer-Bot-05-30",
         #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Contact", url="https://t.me/prgofficial")]]),
@@ -46,6 +47,12 @@ def pics(bot, update):
         disable_web_page_preview=False,
         reply_to_message_id=update.message_id
     )
+    else:
+        await bot.delete_messages(
+            chat_id=update.chat.id,
+            message_ids=update.message_id,
+            revoke=True
+    
 
 @Client.on_message(filters.command(["start"]))
 def send_start(bot, update):

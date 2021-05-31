@@ -43,7 +43,7 @@ def pics(bot, update):
         text="https://telegra.ph/Renamer-Bot-05-30",
         #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Contact", url="https://t.me/prgofficial")]]),
         parse_mode="html",
-        disable_web_page_preview=True,
+        disable_web_page_preview=False,
         reply_to_message_id=update.message_id
     )
 

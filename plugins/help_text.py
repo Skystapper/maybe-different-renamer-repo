@@ -40,7 +40,7 @@ def help_user(bot, update):
 def pics(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
-        text="https://telegra.ph/Renamer-Bot-05-30"
+        text="https://telegra.ph/Renamer-Bot-05-30",
         #reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Contact", url="https://t.me/prgofficial")]]),
         parse_mode="html",
         disable_web_page_preview=True,

@@ -64,7 +64,7 @@ async def rename_doc(bot, message):
     filetype = media.document or media.video or media.audio or media.voice or media.video_note
     try:
         actualname = filetype.file_name
-        #splitit = actualname.split(".")
+        splitit = actualname.split(".")
         #extension = (splitit[-1])
     #except:
         #extension = "mkv"

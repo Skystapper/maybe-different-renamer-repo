@@ -37,9 +37,10 @@ async def force_name(bot, message):
 
     await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>File Name</b> : <code>{}</code> \n\nSelect the desired option below 😇".format(filename),
+        
         message.reply_to_message.from_user.id,
         "Enter new name for media\n\nNote : Extension not required",
+        text="<b>File Name</b> : <code>{}</code> \n\nSelect the desired option below 😇".format(filename),
         reply_to_message_id=message.reply_to_message.message_id,
         reply_markup=ForceReply(True)
     )

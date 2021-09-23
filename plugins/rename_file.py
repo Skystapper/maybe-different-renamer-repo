@@ -29,8 +29,15 @@ from database.database import *
 
 
 async def force_name(bot, message):
+    file = update.document or update.video or update.audio or update.voice or update.video_note
+    try:
+        filename = file.file_name
+    except:
+        filename = "Not Available"
 
     await bot.send_message(
+        chat_id=update.chat.id,
+        text="<b>File Name</b> : <code>{}</code> \n\nSelect the desired option below 😇".format(filename),
         message.reply_to_message.from_user.id,
         "Enter new name for media\n\nNote : Extension not required",
         reply_to_message_id=message.reply_to_message.message_id,

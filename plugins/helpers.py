@@ -28,7 +28,7 @@ async def progress_for_pyrogram(
             ''.join(["◻️" for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2))
 
-        tmp = progress + "✅Completed: {0}\n🗃️File Size: {1}\n🚀Speed: {2}/s\n⏳Time Left: {3}\n⏱️ETA: {4}\n\nPowered By Google & AMD Ryzen".format(
+        tmp = progress + "✅Completed: {0}\n🗃️File Size: {1}\n🚀Speed: {2}/s\n⏳Time Left: {3}\n⏱️ETA: {4}\n\nPowered By Google & AMD Ryzen.".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),

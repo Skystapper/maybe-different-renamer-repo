@@ -5,17 +5,22 @@ class script(object):
 
 🛰️Try Not to Spam me.
 
-🌟/help for more details..."""
+🌟/help for more details...
+
+Powered by Google & AMD Ryzen
+"""
 
     ABOUT_TEXT = """
 <u>Bot : Renamer Bot</u>\n
-➠Owner : @Coderboy07
+➠Owner : @CyberHunter07
 ➠Language : [Python](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.python.org/&ved=2ahUKEwiJwb2Y6fHwAhWLlEsFHYLCCTgQFjAAegQIBxAC&usg=AOvVaw0QREvGsjwHKp2GtoYvs1JH)
-➠Version : 1.4.6
-➠Last Update : 3 July, 2021
+➠Version : 1.4.9
+➠Last Update : 25 September, 2021
 ➠Library : [Pyrogram](https://www.google.com/url?sa=t&source=web&rct=j&url=https://docs.pyrogram.org/&ved=2ahUKEwjy7bWw6vHwAhXRzTgGHeBuBd0QFjAAegQICRAC&usg=AOvVaw3kytbJe02rVUFb6vvTb68A&cshid=1622392334738)
 ➠Server : [Heroku](https://dashboard.heroku.com/)
 ➠Country : India
+
+Powered by Google & AMD Ryzen
 """
     RENAME_403_ERR = "😝What Are You Doing? You are Banned"
     UPGRADE_TEXT = "💯This Bot is Completely free to use."
@@ -40,5 +45,6 @@ class script(object):
 🎯Show Thumbnail
  🌈Send /showthumb for view current thumbnail.
 
+Powered by Google & AMD Ryzen.
 """
 

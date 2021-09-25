@@ -7,7 +7,7 @@ class script(object):
 
 🌟/help for more details...
 
-Powered by Google & AMD Ryzen
+Powered by Google & AMD Ryzen.
 """
 
     ABOUT_TEXT = """
@@ -20,7 +20,7 @@ Powered by Google & AMD Ryzen
 ➠Server : [Heroku](https://dashboard.heroku.com/)
 ➠Country : India
 
-Powered by Google & AMD Ryzen
+Powered by Google & AMD Ryzen.
 """
     RENAME_403_ERR = "😝What Are You Doing? You are Banned"
     UPGRADE_TEXT = "💯This Bot is Completely free to use."

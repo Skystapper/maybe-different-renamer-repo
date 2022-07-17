@@ -7,6 +7,7 @@ Rename any Telegram Files with Permanent Thumbnail Support'
 
 * Added auto detection of files
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Skystapper/maybe-different-renamer-repo)
 
 ### Installation
 
